@@ -27,21 +27,6 @@ function Swiper() {
         },
     ];
 
-    const picStyle = {
-        textAlign: 'center',
-        height: '90vh',
-        width: '80%',
-        margin: '0 auto',
-        background: '#364d79',
-        overflow: 'hidden',
-        borderRadius: "15px",
-        padding: "1rem",
-        cursor: "pointer",
-        '@media (max-width: 768px)': {
-            height: '80vh',
-        },
-    };
-
     //循环轮播
     const handleBeforeChange = (from, to) => {
         if (to === contentStyle.length - 1) {
