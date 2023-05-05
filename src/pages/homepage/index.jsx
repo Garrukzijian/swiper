@@ -71,7 +71,7 @@ function Swiper() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>轮播图,当前为第{currentIndex+1}张</h1>
+                <h1>轮播图</h1>
             </header>
             <Row style={{ height: "100%" }}>
                 <Col xs={24} sm={24} md={24} lg={24} className='carousel'>
